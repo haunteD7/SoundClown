@@ -120,7 +120,6 @@ namespace SC
                     {
                         event.close_data.type = WindowEventType::Close;
                         event.close_data.window_id = SDL2_event.window.windowID;
-                        std::cout << "Close event\n";
                         break;
                     }
                     case SDL_WINDOWEVENT_ENTER:
